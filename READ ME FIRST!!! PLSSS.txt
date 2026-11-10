@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OverDose | Coming Soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- INTRO LOADER -->
+<div id="loader">
+    <h2>LOADING...</h2>
+</div>
+
+<!-- CURSOR GLOW -->
+<div class="cursor-glow"></div>
+
+<!-- TOP TEXT -->
+<div class="top-left">OverDOSE</div>
+
+<!-- 3D CIRCULAR COMING SOON (X FORM) -->
+<div class="coming-soon-ring">
+    <div class="ring ring-x" id="ringTextX">
+        COMING SOON • COMING SOON • COMING SOON •
+    </div>
+    <div class="ring ring-y" id="ringTextY">
+        COMING SOON • COMING SOON • COMING SOON •
+    </div>
+</div>
+
+<!-- Hidden Clue -->
+<div class="hidden-clue" style="top: 45%; left: 55%;">
+    ROOM #305 — TIME: 8:00 AM
+</div>
+
+<!-- BLOOD -->
+<div class="blood-mark" style="top: 60%; left: 30%;"></div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+    <h1 id="typing-text">
+        <span id="typed"></span><span id="cursor">|</span>
+    </h1>
+
+    <div class="buttons">
+        <button class="btn">WE’LL SEE YOU ON FEB. 11 <span>→</span></button>
+        <button class="btn">SOON IN ROOM 305 <span>→</span></button>
+        <button class="btn" id="menuBtn">
+            MENU
+             <span>→</span>
+        </button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
